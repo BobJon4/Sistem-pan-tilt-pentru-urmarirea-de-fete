@@ -1,0 +1,39 @@
+Cuprins:
+
+Capitolul 1 - Introducere
+	1.1. Contextul lucrarii
+	1.2. Motivatie
+	1.3. Obiectivele proiectului
+	1.4. Structura lucrarii
+
+Capitolul 2 - Notiuni de baza
+	2.1. Retele neurale
+	2.2. Servo-motoare (avantaje fata de motoare normale, unde sunt folosite, etc.)
+	2.3. Controlul PID (avantaje, unde este folosit, metode, etc.)
+
+Capitolul 3 - Face-Tracking folosind o platforma pan-tilt
+	3.1. Prezentarea problemei
+	3.2. Arhitectura YOLO
+		3.2.1. Backbone-ul 
+		3.2.2. Straturile
+		3.2.3. Functia de cost
+	3.3. Antrenarea retelei
+		3.3.1. Setul de date de antrenare
+		3.3.2. Procesul de antrenare
+	3.4. Asamblarea platformei pan-tilt
+		3.4.1. Calibrarea servo-motoarelor
+		3.4.2. Proiectarea platformei pan-tilt (daca voi folosi o platforma printata de mine)
+		3.4.3. Estimarea coeficientilor PID folosind metoda de reglare Nichols-Ziegler
+	3.5. Integrarea sistemului de detectiei faciala, cu platforma pan-tilt
+		3.5.1. Parametrii camerei
+		3.5.2. Transferul datelor intre calculator - microcontroller
+Capitolul 4 - Rezultate experimentale
+	4.1. Cadrul experimental (practic setup-ul de testare)
+	4.2. Evaluarea detectiei si urmaririi fetelor in scenarii specifice
+		4.2.1. O singura persoana in cadru
+		4.2.2. Persoana cu fata semi-acoperita (masca)
+		4.2.3. Mai multe persoane in cadru
+Capitolul 5 - Concluzii
+	5.1. Concluzii generale
+	5.2. Concluzii personale
+	5.3. Posibilitatii de dezvoltare ulterioara
